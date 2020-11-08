@@ -32,33 +32,29 @@
               </div>
             </div>
   
-            <div class="container register-form">
+            <div class="container register-form" style="text-align: center;">
                 <div class="form">
                     <div class="note">
                         <p>Onwards</p>
                     </div>
     
-                    <div class="form-content">
-                        <div class="row">
+                    <form  class="form-content" method="post" action="/signup">
+                        <div class="row justify-content-md-center">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Username *" value=""/>
+                                    <input type="text" class="form-control" name = "name" placeholder="Username *" value=""/>
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Email Address *" value=""/>
+                                    <input type="text" class="form-control" name="email" placeholder="Email Address *" value=""/>
                                 </div>
+                                <div class="form-group">
+                                  <input class="form-control" type="password" name="password" placeholder="Password ">
+                              </div>
                             </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Your Password *" value=""/>
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Confirm Password *" value=""/>
-                                </div>
-                            </div>
+        
                         </div>
-                        <button type="button" class="btnSubmit">Submit</button>
-                    </div>
+                        <button type="submit" name="submit" class="btnSubmit">Submit</button>
+                    </form>
                 </div>
             </div>
   
