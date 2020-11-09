@@ -5,8 +5,8 @@ from boto3.dynamodb.conditions import Key, Attr
 app = Flask(__name__)
 
 
-dynamodb = boto3.resource('dynamodb',aws_access_key_id='AKIA5Z3XPAZ2CNF5IF5Q', 
-                           aws_secret_access_key='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', 
+dynamodb = boto3.resource('dynamodb',aws_access_key_id='#', 
+                           aws_secret_access_key='#', 
                            region_name='us-east-1')
 
 @app.route('/')
